@@ -15,6 +15,10 @@ body {
     overflow: hidden;
 }
 
+.clearFix {
+    clear: both;
+}
+
 #mainHeader {
     background: #333;
     color: white;
@@ -27,6 +31,9 @@ h1 {
 #mainNav {
     background: #ccc;
     color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 #mainNav ul {
     padding: 0;
@@ -70,7 +77,7 @@ h1 {
     float: left;
     width: 30%;
     padding: 10px;
-    border-right: 2px solid black;
+    border-right: 1px solid black;
 }
 
 #mainFooter {
@@ -86,6 +93,24 @@ h1 {
     height: 400px;
     border: 1px solid #333;
     position: relative;
+}
+#pExample span:first-child {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+#pExample span:last-child {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    background: #ff652f;
+    padding: 5px;
 }
 
 @media (max-width: 600px) {
