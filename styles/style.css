@@ -22,4 +22,12 @@ p {
     padding: 10px 20px 10px 20px; /* Clockwise: top, right, bottom, left */
     padding: 10px 20px; /* top && botoom : right && left */
     padding: 20px; /* For all */
+
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin: 20px 40px 20px 40px; /* Clockwise: top, right, bottom, left */
+    margin: 20px 40px; /* top && botoom : right && left */
+    margin: 40px; /* For all */
 }
