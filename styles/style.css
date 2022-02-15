@@ -73,6 +73,14 @@ h1 {
     border-right: 2px solid black;
 }
 
+#mainFooter {
+    background: #333;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
 /* p {
     border-top: 5px solid blue;
     border-right: 2px dotted green;
