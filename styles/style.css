@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -10,6 +14,7 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
 #mainHeader {
     background: #333;
     color: white;
@@ -55,7 +60,20 @@ h1 {
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
-p {
+#main {
+    float: right;
+    width: 70%;
+    padding: 0 30px;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+
+/* p {
     border-top: 5px solid blue;
     border-right: 2px dotted green;
     border-bottom: 5px dashed red;
@@ -66,15 +84,15 @@ p {
     padding-right: 20px;
     padding-bottom: 10px;
     padding-left: 20px;
-    padding: 10px 20px 10px 20px; /* Clockwise: top, right, bottom, left */
-    padding: 10px 20px; /* top && botoom : right && left */
-    padding: 20px; /* For all */
+    padding: 10px 20px 10px 20px; Clockwise: top, right, bottom, left
+    padding: 10px 20px; top && botoom : right && left
+    padding: 20px; For all
 
     margin-top: 20px;
     margin-right: 40px;
     margin-bottom: 20px;
     margin-left: 40px;
-    margin: 20px 40px 20px 40px; /* Clockwise: top, right, bottom, left */
-    margin: 20px 40px; /* top && botoom : right && left */
-    margin: 40px; /* For all */
-}
+    margin: 20px 40px 20px 40px; Clockwise: top, right, bottom, left
+    margin: 20px 40px; top && botoom : right && left
+    margin: 40px; For all
+} */
